@@ -1,0 +1,6 @@
+.WeatherCard {
+    margin: 15% auto;
+    float: left;
+    border: 1px solid red;
+    max-width: 98px;
+}
