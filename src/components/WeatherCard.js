@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./WeatherCard.css";
 import cloudy1 from "./../resources/cloudy1.png";
 import cloudy2 from "./../resources/cloudy2.png";
@@ -21,16 +21,29 @@ export const WeatherCard = (props) => {
     const weatherIcons = [
         cloudy1, cloudy2, cloudy3, cloudy4, rainy, snowy, sunny, cloudy_colored, rainy_colored, snowy_colored, sunny_colored
     ];
-    const temperature = Math.floor(Math.random() * 40 - 10);
+    const [temperatureDaily, setTemperatureDaily] = useState(NaN);
+    const [weatherPicDaily, setWeatherPicDaily] = useState({});
+    const [weatherDescriptionDaily, setWeatherDescriptionDaily] = useState({});
+
+    fetch("https://api.weatherbit.io/v2.0/forecast/daily?lang=de&postal_code=22761&country=de&key=4cb12e098d664cf3971b6cd11ea62ea3")
+        .then(results => {
+            return results.json();
+        })
+        .then(data => {
+            setTemperatureDaily(data.data[props.weekday].temp);
+            setWeatherPicDaily(data.data[props.weekday].weather.icon);
+            setWeatherDescriptionDaily(data.data[props.weekday].weather.description);
+        });
 
     return (
         <div className="WeatherCard">
             {day < 7 ? weekdays[day] : weekdays[day - 7]}
             <br/>
             <br/>
-            <img src={weatherIcons[Math.floor(Math.random() * weatherIcons.length)]}/>
+            <img src={weatherPicDaily} alt={weatherDescriptionDaily}/>
             <br/>
-            {temperature + "\xB0 C"}
+            <br/>
+            {Math.round(temperatureDaily) + "\xB0 C"}
         </div>
     )
 };

@@ -15,7 +15,6 @@ export const App = () => {
                 <WeatherCard weekday={5}/>
                 <WeatherCard weekday={6}/>
                 <WeatherCard weekday={7}/>
-                {console.log("Hi from render")}
             </div>
         </>
     )
