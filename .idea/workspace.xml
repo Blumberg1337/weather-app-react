@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adff8379-1c9b-4610-8c7b-ed1a8fda75ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/cloudy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/cloudy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/cloudy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/cloudy4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/cloudy_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/rainy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/rainy_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/snowy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/snowy_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/sunny_colored.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +51,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
@@ -88,7 +97,7 @@
       <updated>1567602881633</updated>
       <workItem from="1567602886056" duration="1263000" />
       <workItem from="1567670550593" duration="1939000" />
-      <workItem from="1567685491640" duration="4765000" />
+      <workItem from="1567685491640" duration="10742000" />
     </task>
     <servers />
   </component>

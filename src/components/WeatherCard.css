@@ -3,4 +3,10 @@
     float: left;
     border: 1px solid red;
     max-width: 98px;
+    text-align: center;
+    padding: 2%;
+}
+
+img {
+    max-width: 60px;
 }
