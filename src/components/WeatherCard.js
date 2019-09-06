@@ -21,6 +21,7 @@ export const WeatherCard = (props) => {
     const weatherIcons = [
         cloudy1, cloudy2, cloudy3, cloudy4, rainy, snowy, sunny, cloudy_colored, rainy_colored, snowy_colored, sunny_colored
     ];
+    const [counter, setCounter] = useState(0);
     const [temperatureDaily, setTemperatureDaily] = useState(NaN);
     const [weatherPicDaily, setWeatherPicDaily] = useState({});
     const [weatherDescriptionDaily, setWeatherDescriptionDaily] = useState({});
@@ -30,6 +31,7 @@ export const WeatherCard = (props) => {
             return results.json();
         })
         .then(data => {
+            setCounter(counter + 1);
             setTemperatureDaily(data.data[props.weekday].temp);
             setWeatherPicDaily(data.data[props.weekday].weather.icon);
             setWeatherDescriptionDaily(data.data[props.weekday].weather.description);
@@ -38,6 +40,9 @@ export const WeatherCard = (props) => {
     return (
         <div className="WeatherCard">
             {day < 7 ? weekdays[day] : weekdays[day - 7]}
+            <br/>
+            <br/>
+            {counter}
             <br/>
             <br/>
             <img src={weatherPicDaily} alt={weatherDescriptionDaily}/>
