@@ -18,24 +18,18 @@ export const WeatherCard = (props) => {
     const weekdays = [
         "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"
     ];
-    const weatherIcons = [
-        cloudy1, cloudy2, cloudy3, cloudy4, rainy, snowy, sunny, cloudy_colored, rainy_colored, snowy_colored, sunny_colored
-    ];
-    const [counter, setCounter] = useState(0);
-    const [temperatureDaily, setTemperatureDaily] = useState(NaN);
-    const [weatherPicDaily, setWeatherPicDaily] = useState({});
-    const [weatherDescriptionDaily, setWeatherDescriptionDaily] = useState({});
+    // const weatherIcons = [
+    //     cloudy1, cloudy2, cloudy3, cloudy4, rainy, snowy, sunny, cloudy_colored, rainy_colored, snowy_colored, sunny_colored
+    // ];
+    // const [counter, setCounter] = useState(0);
+    // const [temperatureDaily, setTemperatureDaily] = useState(NaN);
+    // const [weatherPicDaily, setWeatherPicDaily] = useState({});
+    // const [weatherDescriptionDaily, setWeatherDescriptionDaily] = useState({});
 
-    fetch("https://api.weatherbit.io/v2.0/forecast/daily?lang=de&postal_code=22761&country=de&key=4cb12e098d664cf3971b6cd11ea62ea3")
-        .then(results => {
-            return results.json();
-        })
-        .then(data => {
-            setCounter(counter + 1);
-            setTemperatureDaily(data.data[props.weekday].temp);
-            setWeatherPicDaily(data.data[props.weekday].weather.icon);
-            setWeatherDescriptionDaily(data.data[props.weekday].weather.description);
-        });
+    // setCounter(counter + 1);
+    // setTemperatureDaily(data.data[props.weekday].temp);
+    // setWeatherPicDaily(data.data[props.weekday].weather.icon);
+    // setWeatherDescriptionDaily(data.data[props.weekday].weather.description);
 
     return (
         <div className="WeatherCard">
