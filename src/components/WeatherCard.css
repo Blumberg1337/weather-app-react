@@ -1,10 +1,10 @@
 .WeatherCard {
-    margin: 15% auto;
-    float: left;
-    border: 1px solid red;
-    max-width: 98px;
+    margin: 15% 5px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 88px;
     text-align: center;
-    padding: 2%;
 }
 
 img {
