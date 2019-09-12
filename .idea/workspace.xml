@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adff8379-1c9b-4610-8c7b-ed1a8fda75ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/WeatherCardH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -27,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-card" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,7 +95,8 @@
       <workItem from="1568126013325" duration="1178000" />
       <workItem from="1568127467941" duration="133000" />
       <workItem from="1568127674576" duration="1587000" />
-      <workItem from="1568189324827" duration="16361000" />
+      <workItem from="1568189324827" duration="16478000" />
+      <workItem from="1568277298284" duration="19755000" />
     </task>
     <servers />
   </component>
