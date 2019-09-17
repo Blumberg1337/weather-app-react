@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adff8379-1c9b-4610-8c7b-ed1a8fda75ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherCardH.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/WeatherCard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WeatherCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherCardH.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherCardH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +49,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +103,10 @@
       <workItem from="1568127467941" duration="133000" />
       <workItem from="1568127674576" duration="1587000" />
       <workItem from="1568189324827" duration="16478000" />
-      <workItem from="1568277298284" duration="19755000" />
+      <workItem from="1568277298284" duration="19924000" />
+      <workItem from="1568392300988" duration="1998000" />
+      <workItem from="1568622262568" duration="8495000" />
+      <workItem from="1568721571890" duration="9917000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,13 @@
+.WeatherCard:first-child {
+    background-color: whitesmoke;
+}
+
 .WeatherCard {
     margin: 5px;
     display: inline-block;
     border: 1px solid gray;
     border-radius: 10px;
     width: 88px;
-}
-
-.WeatherCard:first-child {
-    background-color: whitesmoke;
 }
 
 .WeatherCard:hover {
