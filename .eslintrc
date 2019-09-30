@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "react-app",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", {
+      "useTabs": false,
+      "printWidth": 120,
+      "tabWidth": 4,
+      "singleQuote": true,
+      "trailingComma": "es5",
+      "jsxBracketSameLine": true,
+      "parser": "typescript"}],
+    "arrow-body-style": ["error", "as-needed"],
+    "react/sort-comp": 2,
+    "react/jsx-no-bind": "error",
+    "no-console": 2,
+    "eqeqeq": ["error", "always"],
+    "no-unused-vars": 2,
+    "no-duplicate-imports": 2
+  }
+}
